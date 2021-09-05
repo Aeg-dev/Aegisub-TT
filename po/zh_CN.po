@@ -353,11 +353,11 @@ msgstr "检查是否有可用的新版Aegisub"
 
 #: ../src/command/app.cpp:271 ../src/command/app.cpp:272
 msgid "Minimize"
-msgstr ""
+msgstr "最小化"
 
 #: ../src/command/app.cpp:273
 msgid "Minimize the active window"
-msgstr ""
+msgstr "最小化当前活动窗口"
 
 #: ../src/command/app.cpp:282 ../src/command/app.cpp:283
 #, fuzzy
@@ -366,15 +366,15 @@ msgstr "放大"
 
 #: ../src/command/app.cpp:284
 msgid "Maximize the active window"
-msgstr ""
+msgstr "最小化当前活动窗口"
 
 #: ../src/command/app.cpp:293 ../src/command/app.cpp:294
 msgid "Bring All to Front"
-msgstr ""
+msgstr "显示全部"
 
 #: ../src/command/app.cpp:295
 msgid "Bring forward all open documents to the front"
-msgstr ""
+msgstr "显示已打开的全部窗口"
 
 #: ../src/command/audio.cpp:66
 msgid "&Close Audio"
@@ -5448,7 +5448,7 @@ msgstr "可视化排版"
 
 #: ../src/preferences.cpp:299
 msgid "Shaded Area"
-msgstr ""
+msgstr "阴影部分"
 
 #: ../src/preferences.cpp:308
 msgid "Backup"
@@ -6284,7 +6284,7 @@ msgstr "打开最近打开的音频文件"
 
 #: default_menu.json:0
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: default_menu.json:0
 #, fuzzy
@@ -6383,7 +6383,7 @@ msgstr "删除特效标签"
 
 #: aegisub.desktop:12
 msgid "subtitles;subtitle;captions;captioning;video;audio;"
-msgstr ""
+msgstr "subtitles;subtitle;captions;captioning;video;audio;"
 
 #: packages/win_installer/fragment_strings.iss:1
 #, fuzzy
