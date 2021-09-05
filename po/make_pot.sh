@@ -15,10 +15,10 @@ maybe_append() {
 find ../src ../src/command -name \*.cpp -o -name \*.h \
   | xgettext --files-from=- -o - --c++ -k_ -kSTR_MENU -kSTR_DISP -kSTR_HELP -kfmt_tl -kfmt_plural:2,3 -kwxT -kwxPLURAL:1,2 \
   | sed 's/SOME DESCRIPTIVE TITLE./Aegisub 3.2/' \
-  | sed 's/YEAR/2005-2014/' \
+  | sed 's/YEAR/2005-2021/' \
   | sed "s/THE PACKAGE'S COPYRIGHT HOLDER/Rodrigo Braz Monteiro, Niels Martin Hansen, Thomas Goyne et. al./" \
   | sed 's/PACKAGE/Aegisub/' \
-  | sed 's/VERSION/3.2.0/' \
+  | sed 's/VERSION/3.2.2/' \
   | sed 's/FIRST AUTHOR <EMAIL@ADDRESS>/Niels Martin Hansen <nielsm@aegisub.org>/' \
   | sed 's/CHARSET/UTF-8/' \
   > aegisub.pot
